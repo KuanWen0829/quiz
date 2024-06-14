@@ -106,5 +106,11 @@ public class QuizServiceTests {
 				LocalDate.of(2024, 6, 1),questionList,true);
 		res = quizService.createOrUpdate(req);
 		Assert.isTrue(res.getStatusCode() == 200, "create test false!!");
+		System.out.println("============================================");
 	}
+	
+
+	
+	
+	
 }
